@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+    },
+    "types": ["jest", "node"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
